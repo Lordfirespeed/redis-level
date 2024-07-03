@@ -1,6 +1,6 @@
 {
   "name": "sql-level",
-  "description": "SQL backed abstract-level database for Node.js",
+  "description": "Redis backed abstract-level database for Node.js",
   "files": [
     "dist/**"
   ],
