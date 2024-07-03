@@ -1,0 +1,54 @@
+{
+  "name": "sql-level",
+  "description": "SQL backed abstract-level database for Node.js",
+  "files": [
+    "dist/**"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "module": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "type-check": "tsc --noEmit",
+    "format:fix": "biome format ./src ./tests --write",
+    "format": "biome format ./src ./tests",
+    "lint:fix": "biome lint ./src ./tests --write",
+    "lint": "biome lint ./src ./tests",
+    "test": "tsx ./tests/index.test.ts",
+    "prebuild": "pnpm run type-check"
+  },
+  "keywords": [
+    "level",
+    "leveldb",
+    "leveldown",
+    "levelup",
+    "memory",
+    "sql",
+    "mysql",
+    "pg",
+    "postgres",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "LGPL-3.0-or-later",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^20.14.9",
+    "@types/tape": "^5.6.4",
+    "tape": "^5.8.1",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "abstract-level": "^2.0.0",
+    "module-error": "^1.0.2",
+    "redis": "^4.6.14"
+  }
+}
