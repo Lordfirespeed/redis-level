@@ -37,6 +37,7 @@
 !/.github/
 
 ## Sources
+!/tests
 !/src
 
 # Explicit exceptions/ignores
