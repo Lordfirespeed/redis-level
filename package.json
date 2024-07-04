@@ -1,5 +1,5 @@
 {
-  "name": "sql-level",
+  "name": "redis-level",
   "description": "Redis backed abstract-level database for Node.js",
   "files": [
     "dist/**"
