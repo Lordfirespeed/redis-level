@@ -6,7 +6,7 @@
 
 [![level badge](https://leveljs.org/img/badge.svg)](https://github.com/Level/awesome)
 [![npm](https://img.shields.io/npm/v/redis-level.svg)](https://www.npmjs.com/package/redis-level)
-[![Node version](https://img.shields.io/node/v/redis-level.svg)](https://www.npmjs.com/package/classic-level)
+[![Node version](https://img.shields.io/node/v/redis-level.svg)](https://www.npmjs.com/package/redis-level)
 [![Biome](https://img.shields.io/badge/Biome-informational?logo=biome\&logoColor=fff)]([https://standardjs.com](https://biomejs.dev/))
 
 ## Usage
