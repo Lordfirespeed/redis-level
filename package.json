@@ -1,6 +1,11 @@
 {
   "name": "redis-level",
   "description": "Redis backed abstract-level database for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Level/redis-level.git"
+  },
+  "homepage": "https://github.com/Level/redis-level",
   "files": [
     "dist/**"
   ],
