@@ -22,7 +22,7 @@
     "lint:fix": "biome lint ./src ./tests --write",
     "lint": "biome lint ./src ./tests",
     "test": "tsx ./tests/index.test.ts",
-    "prebuild": "pnpm run type-check"
+    "prebuild": "npm run type-check"
   },
   "keywords": [
     "level",
